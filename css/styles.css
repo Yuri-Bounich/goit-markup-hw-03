@@ -4,8 +4,36 @@ body {
     background-color: #ffffff;
 }
 
-ul{
-list-style-type: none;
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p {
+         margin: 0;
+ }
+
+ ul,
+ ol {
+         margin: 0;
+         padding-left: 0;
+        list-style-type: none;
+ }
+
+/* *{
+        box-sizing: border-box;
+} */
+
+ img{display: block;}
+
+.container {
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 156px; 
+        margin-right: 156px;
+        margin: 0 auto;
 }
 
 a{
@@ -15,6 +43,23 @@ a{
 
 button{
         cursor: pointer;
+}
+
+/* ------------------------------header----------------------------------------------- */
+.header{
+        padding-top: 24px;
+        padding-bottom: 120px;
+        }
+
+.header-container{
+        display: flex;
+        }
+
+.header-logo-menu{
+        display: flex;
+        gap: 76px;
+        align-items: center;
+        margin-right: auto;
 }
 
 .logo{
@@ -29,6 +74,11 @@ button{
 
 .name{
         color: #2e2f42;
+}
+
+.menu{
+        display: flex;
+        gap: calc((100% - 80px) / 3);
 }
 
 .menu-link{
@@ -51,6 +101,12 @@ button{
         color: #bf40a1;
 }
 
+.address-menu{
+        display: flex;
+        gap: 40px;
+        /* margin-left: auto; */
+}
+
 .address{
 font-style: normal;
 }
@@ -71,8 +127,19 @@ font-style: normal;
         color: #404bbf;
 }
 
+/* -----------------------------------head solution----------------------------- */
+
 .head-solutiuon{
 background-color: #2e2f42;
+/* padding-bottom: 96px; */
+}
+
+.container-head-solution{
+        padding: 188px 472px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
 }
 
 .solution{
@@ -83,6 +150,7 @@ background-color: #2e2f42;
         text-align: center;
         color: #fff;
         background: #2e2f42;
+        min-width: 496px;
 }
 
 .solution-btn{
@@ -92,6 +160,11 @@ background-color: #2e2f42;
         letter-spacing: 0.04em;
         color: #fff;
         background-color: #4d5ae5;
+        margin: 0 auto;
+        border-radius: 4px;
+        /* padding: 16px 32px; */
+        width: 169px;
+        height: 56px;
 }
 
 .solution-btn:hover {
@@ -102,12 +175,42 @@ background-color: #2e2f42;
         background-color: #404bbf;
 }
 
+/* ------------------------------strategy------------------------------ */
+
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+
 .strategy {
         font-weight: 500;
         font-size: 20px;
         line-height: 120%;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding-bottom: 8px;
+}
+
+.container-strategy{
+        padding-top: 96px;
+        margin-bottom: 96px;
+}
+
+.container-strategy-menu{
+        display: flex;
+        gap: calc((100% - 4 * 264px) / 3);
+}
+
+.strategy-item{
+        width: calc((100% - 24px* 3) / 4);
 }
 
 .h3{
@@ -136,9 +239,28 @@ h2{
         color: #2e2f42;
 }
 
+/* -------------------------------team-------------------------- */
+
 .our-team{
         background-color: #f4f4fd;
+        margin-bottom: 96px;
 }
+
+.container-our-team{
+        padding-top: 120px;
+        padding-bottom: 120px;
+}
+
+.command{
+        display: flex;
+        gap: calc((100% - 264px* 4) / 3);
+        border-radius: 0 0 4px 4px;
+        }
+
+.command-title{
+        width: calc((100% - 24px* 3) / 4);
+}
+/* ---------------------about----------------------------------- */
 
 .about{
         text-transform: capitalize;
@@ -171,8 +293,12 @@ font-size: 16px;
         color: #434455;
 }
 
+/* ---------------------footer--------------------------- */
+
 .head-footer{
 background-color: #2e2f42;
+padding-top: 100px;
+padding-bottom: 100px;
 }
 
 #logo-footer{
