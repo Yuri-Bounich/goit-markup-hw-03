@@ -281,12 +281,6 @@ background-color: #f4f4fd;
         margin-bottom: 72px;
 }
 
-.about-container{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 48px 24px;
-}
-
 .about-container-item{
         width: 360px;
         height: 420px;
@@ -297,7 +291,10 @@ background-color: #f4f4fd;
         }
 
 .command{
-    text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        text-align: center;
 }
 
 .command-title{
