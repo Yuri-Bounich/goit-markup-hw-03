@@ -47,15 +47,12 @@ button{
 
 /* ------------------------------header----------------------------------------------- */
 .header{
-        padding: 24px 0;
-        border-bottom: 1px solid #e7e9fc;
+      border-bottom: 1px solid #e7e9fc;
         }
 
 .header-container{
         display: flex;
-        /* padding-bottom: 24px; */
-        border-bottom: 1px solid #e7e9fc;
-        }
+      align-items: center;
 
 .header-logo-menu{
         display: flex;
@@ -91,6 +88,7 @@ button{
         letter-spacing: 0.02em;
         color: #2e2f42;
         padding: 24px 0;
+        display: block;
 }
 
 .menu-link:hover {
@@ -335,7 +333,6 @@ padding: 32px 0;
                 letter-spacing: 0.02em;
                 color: #2e2f42;
                 margin-bottom: 8px;
-                text-align: center;
 }
 
 .command-title-text{
@@ -380,7 +377,7 @@ padding: 100px 0;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         background: #2e2f42;
-        padding-top: 16px;
         width: 264px;
-        height: 72px;
-}
+       }
+
+       
