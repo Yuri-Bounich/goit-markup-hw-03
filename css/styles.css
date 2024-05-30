@@ -52,7 +52,7 @@ button{
 
 .header-container{
         display: flex;
-      align-items: center;
+      align-items: center;}
 
 .header-logo-menu{
         display: flex;
@@ -379,5 +379,3 @@ padding: 100px 0;
         background: #2e2f42;
         width: 264px;
        }
-
-       
